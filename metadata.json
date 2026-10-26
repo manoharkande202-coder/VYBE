@@ -1,0 +1,6 @@
+{
+  "name": "VYBE - Social & Professional Networking",
+  "description": "Discover your tribe. A modern networking platform connecting like-minded people through interests, skills, goals, and authentic vibes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

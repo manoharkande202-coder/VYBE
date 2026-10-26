@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #08080C;
+    color: #F8FAFC;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Custom glow and backdrop effects */
+.vybe-glow {
+  box-shadow: 0 0 40px -10px rgba(139, 92, 246, 0.25);
+}
+
+.vybe-glow-strong {
+  box-shadow: 0 0 50px -5px rgba(168, 85, 247, 0.35);
+}
+
+.vybe-border {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.vybe-card {
+  background-color: #101017;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.vybe-card:hover {
+  border-color: rgba(168, 85, 247, 0.25);
+}
+
+/* Custom sleek scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #08080C;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #262635;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7C3AED;
+}
